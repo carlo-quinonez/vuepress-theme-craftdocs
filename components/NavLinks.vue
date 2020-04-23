@@ -120,7 +120,6 @@ export default {
 
 .nav-links
   display inline-block
-  float: left
   margin-left 50px
   a
     line-height 1.4rem
