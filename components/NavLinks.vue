@@ -120,6 +120,7 @@ export default {
 
 .nav-links
   display inline-block
+  margin-left 50px
   a
     line-height 1.4rem
     color inherit

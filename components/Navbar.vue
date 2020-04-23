@@ -19,6 +19,7 @@
         :class="{ 'can-hide': $site.themeConfig.logo }"
       >{{ $siteTitle }}</span>
     </router-link>
+    <NavLinks class="can-hide"/>
 
     <div
       class="links"
@@ -31,7 +32,6 @@
         :options="algolia"
       />
       <SearchBox v-else-if="$site.themeConfig.search !== false"/>
-      <NavLinks class="can-hide"/>
     </div>
   </header>
 </template>
